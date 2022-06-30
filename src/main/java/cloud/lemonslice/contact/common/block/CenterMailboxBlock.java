@@ -1,6 +1,6 @@
 package cloud.lemonslice.contact.common.block;
 
-import cloud.lemonslice.silveroak.common.block.NormalHorizontalBlock;
+import cloud.lemonslice.contact.common.block.NormalHorizontalBlock;
 import com.google.common.collect.Lists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.TranslatableComponent;

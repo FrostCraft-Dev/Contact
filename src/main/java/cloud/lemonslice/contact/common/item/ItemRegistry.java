@@ -1,6 +1,6 @@
 package cloud.lemonslice.contact.common.item;
 
-import cloud.lemonslice.silveroak.common.item.NormalItem;
+import cloud.lemonslice.contact.common.item.NormalItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

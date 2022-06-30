@@ -97,8 +97,6 @@ def info = [
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
-    implementation files('../Silveroak-Outpost/build/libs/SliveroakOutpost-1.1.5-Beta.jar')
 }
 
 jar {
