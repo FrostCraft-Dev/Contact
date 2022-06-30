@@ -95,20 +95,10 @@ def info = [
         "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
 ]
 
-repositories {
-    maven {
-        name = "silveroak"
-        url = "https://maven.lemonslice.cloud/releases"
-    }
-    maven {
-        url 'https://www.dogforce-games.com/maven/'
-    }
-}
-
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("cloud.lemonslice.silveroak:SilveroakOutpost-Forge-1.18:1.0.9-Alpha")
+    implementation files('../Silveroak-Outpost/build/libs/SliveroakOutpost-1.1.5-Beta.jar')
 }
 
 jar {
