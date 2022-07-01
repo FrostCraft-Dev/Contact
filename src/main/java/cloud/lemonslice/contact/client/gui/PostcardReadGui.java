@@ -1,8 +1,8 @@
 package cloud.lemonslice.contact.client.gui;
 
 import cloud.lemonslice.contact.resourse.PostcardStyle;
-import cloud.lemonslice.silveroak.client.widget.ReadOnlyTextBox;
-import cloud.lemonslice.silveroak.helper.ColorHelper;
+import cloud.lemonslice.contact.client.widget.ReadOnlyTextBox;
+import cloud.lemonslice.contact.helper.ColorHelper;
 import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;

@@ -1,8 +1,8 @@
 package cloud.lemonslice.contact.common.block;
 
 import cloud.lemonslice.contact.common.container.PostboxContainer;
-import cloud.lemonslice.silveroak.common.block.NormalHorizontalBlock;
-import cloud.lemonslice.silveroak.helper.VoxelShapeHelper;
+import cloud.lemonslice.contact.common.block.NormalHorizontalBlock;
+import cloud.lemonslice.contact.helper.VoxelShapeHelper;
 import com.google.common.collect.Lists;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

@@ -1,4 +1,4 @@
-package cloud.lemonslice.silveroak.client.widget;
+package cloud.lemonslice.contact.client.widget;
 
 import com.google.common.collect.Lists;
 import com.mojang.blaze3d.systems.RenderSystem;

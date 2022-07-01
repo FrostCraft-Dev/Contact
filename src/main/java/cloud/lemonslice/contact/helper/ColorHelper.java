@@ -1,4 +1,4 @@
-package cloud.lemonslice.silveroak.helper;
+package cloud.lemonslice.contact.helper;
 
 public final class ColorHelper
 {

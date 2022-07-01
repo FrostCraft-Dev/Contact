@@ -3,7 +3,7 @@ package cloud.lemonslice.contact.common.item;
 import cloud.lemonslice.contact.Contact;
 import cloud.lemonslice.contact.client.ClientProxy;
 import cloud.lemonslice.contact.resourse.PostcardHandler;
-import cloud.lemonslice.silveroak.common.item.NormalItem;
+import cloud.lemonslice.contact.common.item.NormalItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;

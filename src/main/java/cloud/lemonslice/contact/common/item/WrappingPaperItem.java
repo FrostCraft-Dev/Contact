@@ -2,7 +2,7 @@ package cloud.lemonslice.contact.common.item;
 
 import cloud.lemonslice.contact.Contact;
 import cloud.lemonslice.contact.common.container.WrappingPaperContainer;
-import cloud.lemonslice.silveroak.common.item.NormalItem;
+import cloud.lemonslice.contact.common.item.NormalItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerPlayer;

@@ -1,7 +1,7 @@
 package cloud.lemonslice.contact.network;
 
 import cloud.lemonslice.contact.common.item.PostcardItem;
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Inventory;

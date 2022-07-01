@@ -2,7 +2,7 @@ package cloud.lemonslice.contact.network;
 
 import cloud.lemonslice.contact.resourse.PostcardHandler;
 import cloud.lemonslice.contact.resourse.PostcardStyle;
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;

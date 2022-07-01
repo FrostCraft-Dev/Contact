@@ -2,7 +2,7 @@ package cloud.lemonslice.contact.network;
 
 import cloud.lemonslice.contact.Contact;
 import cloud.lemonslice.contact.common.container.PostboxContainer;
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraftforge.network.NetworkEvent;
 

@@ -1,7 +1,7 @@
 package cloud.lemonslice.contact.client.gui;
 
 import cloud.lemonslice.contact.resourse.PostcardStyle;
-import cloud.lemonslice.silveroak.client.widget.EditableTextBox;
+import cloud.lemonslice.contact.client.widget.EditableTextBox;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.gui.components.Button;

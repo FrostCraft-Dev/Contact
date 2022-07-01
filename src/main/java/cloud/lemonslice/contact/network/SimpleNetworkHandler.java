@@ -1,6 +1,6 @@
 package cloud.lemonslice.contact.network;
 
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkDirection;

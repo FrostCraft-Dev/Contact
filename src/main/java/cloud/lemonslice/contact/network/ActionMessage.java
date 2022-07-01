@@ -2,7 +2,7 @@ package cloud.lemonslice.contact.network;
 
 import cloud.lemonslice.contact.client.ClientProxy;
 import cloud.lemonslice.contact.common.container.WrappingPaperContainer;
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.network.NetworkDirection;

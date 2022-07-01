@@ -1,4 +1,4 @@
-package cloud.lemonslice.silveroak.client.widget;
+package cloud.lemonslice.contact.client.widget;
 
 import cloud.lemonslice.contact.network.SimpleNetworkHandler;
 import cloud.lemonslice.contact.network.TextBoxEditMessage;

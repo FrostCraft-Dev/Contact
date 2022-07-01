@@ -24,9 +24,3 @@ mandatory = true
 versionRange = "[1.18.1,1.19)"
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.contact]]
-modId = "silveroakoutpost"
-mandatory = true
-versionRange = "[1.0.9-Alpha,)"
-ordering = "NONE"
-side = "BOTH"

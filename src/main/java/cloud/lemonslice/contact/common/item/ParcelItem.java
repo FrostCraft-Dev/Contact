@@ -1,7 +1,7 @@
 package cloud.lemonslice.contact.common.item;
 
 import cloud.lemonslice.contact.Contact;
-import cloud.lemonslice.silveroak.common.item.NormalItem;
+import cloud.lemonslice.contact.common.item.NormalItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;

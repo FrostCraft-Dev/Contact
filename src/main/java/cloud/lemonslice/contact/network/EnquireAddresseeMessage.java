@@ -5,7 +5,7 @@ import cloud.lemonslice.contact.common.container.PostboxContainer;
 import cloud.lemonslice.contact.common.handler.AdvancementManager;
 import cloud.lemonslice.contact.common.handler.MailboxManager;
 import cloud.lemonslice.contact.common.item.PostcardItem;
-import cloud.lemonslice.silveroak.network.INormalMessage;
+import cloud.lemonslice.contact.network.INormalMessage;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
 import net.minecraft.network.FriendlyByteBuf;

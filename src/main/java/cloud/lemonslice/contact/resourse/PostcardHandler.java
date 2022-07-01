@@ -2,7 +2,7 @@ package cloud.lemonslice.contact.resourse;
 
 import cloud.lemonslice.contact.network.PostcardReloadMessage;
 import cloud.lemonslice.contact.network.SimpleNetworkHandler;
-import cloud.lemonslice.silveroak.helper.ColorHelper;
+import cloud.lemonslice.contact.helper.ColorHelper;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 import net.minecraft.network.FriendlyByteBuf;
