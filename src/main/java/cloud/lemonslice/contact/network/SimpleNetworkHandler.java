@@ -25,6 +25,7 @@ public final class SimpleNetworkHandler
         registerMessage(id++, AddresseeDataMessage.class, AddresseeDataMessage::new, NetworkDirection.PLAY_TO_CLIENT);
         registerMessage(id++, PostcardEditMessage.class, PostcardEditMessage::new, NetworkDirection.PLAY_TO_SERVER);
         registerMessage(id++, PostcardReloadMessage.class, PostcardReloadMessage::new, NetworkDirection.PLAY_TO_CLIENT);
+        registerMessage(id++, TextBoxEditMessage.class, TextBoxEditMessage::new, NetworkDirection.PLAY_TO_SERVER);
     }
 
     private static <T extends INormalMessage> void registerMessage(int index, Class<T> messageType, Function<FriendlyByteBuf, T> decoder)
