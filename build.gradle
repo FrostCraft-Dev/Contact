@@ -63,7 +63,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'info'
 
-            args '--mod', 'contact', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'contact', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 contact {
@@ -73,6 +73,8 @@ minecraft {
         }
     }
 }
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 def version_replaces = [
         'version': project.version

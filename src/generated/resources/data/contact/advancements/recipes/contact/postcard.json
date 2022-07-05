@@ -2,16 +2,18 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "contact:orange_mailbox"
+      "contact:postcard"
     ]
   },
   "criteria": {
-    "has_dye": {
+    "has_paper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:dyes/orange"
+            "items": [
+              "minecraft:paper"
+            ]
           }
         ]
       }
@@ -19,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "contact:orange_mailbox"
+        "recipe": "contact:postcard"
       }
     }
   },
   "requirements": [
     [
-      "has_dye",
+      "has_paper",
       "has_the_recipe"
     ]
   ]

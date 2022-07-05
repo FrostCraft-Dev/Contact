@@ -43,6 +43,13 @@ public final class RecipeProvider extends net.minecraft.data.recipes.RecipeProvi
 
         ShapedRecipeBuilder.shaped(ItemRegistry.WRAPPING_PAPER.get()).define('*', Tags.Items.STRING).define('x', Items.PAPER).pattern("*x*").pattern("xxx").pattern("*x*").group("wrapping_paper").unlockedBy("has_paper", has(Items.PAPER)).save(consumer);
         ShapelessRecipeBuilder.shapeless(ItemRegistry.ENDER_WRAPPING_PAPER.get()).requires(ItemRegistry.WRAPPING_PAPER.get()).requires(Items.ENDER_PEARL).group("wrapping_paper").unlockedBy("has_ender_pearl", has(Items.ENDER_PEARL)).save(consumer);
+
+        ShapedRecipeBuilder.shaped(ItemRegistry.POSTCARD.get())
+                .pattern("xx")
+                .pattern("xx")
+                .define('x', Items.PAPER)
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .save(consumer);
     }
 
     @Override
