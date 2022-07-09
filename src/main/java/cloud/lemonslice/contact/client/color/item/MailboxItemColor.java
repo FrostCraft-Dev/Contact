@@ -8,7 +8,6 @@ import net.minecraft.world.level.block.Block;
 
 public class MailboxItemColor implements ItemColor
 {
-
     @Override
     public int getColor(ItemStack itemStack, int tintIndex)
     {

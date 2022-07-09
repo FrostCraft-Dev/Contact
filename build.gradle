@@ -1,18 +1,15 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
-        maven { url = 'https://maven.parchmentmc.org' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath 'org.parchmentmc:librarian:1.+'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 version = "${mod_version}-${mod_phase}"
 group = 'cloud.lemonslice.contact'
@@ -123,7 +120,7 @@ publishing {
 
             artifact reobfArtifact
             pom {
-                name = 'Contact for Minecraft 1.18'
+                name = 'Contact for Minecraft 1.19'
                 description = 'A Minecraft mod.'
                 url = 'https://github.com/lemon-slice-studio/Contact'
                 licenses {
